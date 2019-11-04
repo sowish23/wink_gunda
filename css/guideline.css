@@ -1,0 +1,62 @@
+.navbar{
+    width: 100%;
+    background-color: #519D9E;
+}
+
+.navbar .navbar-ul li a{
+    color: #EFFBF5;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0 0 0 80px;
+}
+
+.navbar .navbar-ul li a:hover{
+    color: #9DC8C8;
+}
+
+.navbar .navbar-ul{
+    padding-left: 10%;
+}
+
+.todoCheck {
+  margin-right: 7px;
+}
+
+.centerDiv {
+  width: 1200px;
+  margin: auto;
+}
+
+.myDiv {
+  margin: 5px;
+}
+
+.hrDiv {
+  display: inline;
+  float: left;
+}
+
+.date td {
+  width: 100px;
+  height: 100px;
+}
+
+.date td:hover {
+  background-color: #f5f5f5;
+}
+
+.trCalender td {
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.todoHead, .todoHeadimg{
+  text-align: center;
+}
+
+.todoList{
+  max-height: 10px;
+}
