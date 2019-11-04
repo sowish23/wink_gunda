@@ -1,0 +1,65 @@
+h2, h3, h4 {
+  font-family: 'Nanum Gothic','ë§‘ì€ ê³ ë”•','ë‹ì›€',sans-serif;
+  font-size:13px;
+  padding-left:15px;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #519D9E;
+}
+.navbar .navbar-ul li {
+  padding-right:50px;
+}
+
+.navbar .navbar-ul li a{
+    color: #EFFBF5;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.navbar .navbar-ul li a:hover{
+    color: #9DC8C8;
+}
+
+.navbar .navbar-ul{
+    padding-left: 10%;
+}
+
+
+
+.wrap-all {
+  width : 716px;
+}
+
+.topBanner {
+  position:relative;
+  width:732px;
+  height:180px;
+  overflow:hidden;
+  margin-bottom:35px;
+  padding-left:15px;
+}
+
+.searchBox {
+  position:relative;
+  width:732px;
+  height:130px;
+  overflow:hidden;
+  padding-left:15px;
+}
+
+
+
+#font1 {
+  font-size : 15px;
+}
+
+#color-blue {
+  color : #16a8e5;
+}
+
+#color-red {
+  color : #ec434a;
+}
