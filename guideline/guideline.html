@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/guideline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
+    <title>다이어리</title>
+
+    <script type="text/javascript">
+      var reset=0;
+      var count=0;
+      var today = new Date();
+      var date = new Date();
+
+      function prevcalendar(){
+        today = new Date(today.getFullYear(), today.getMonth()-1, today.getDate());
+        reset=1;
+        calendar();
+
+      }
+      function nextcalendar(){
+        today = new Date(today.getFullYear(), today.getMonth()+1, today.getDate());
+        reset=1;
+        calendar();
+      }
+      function calendar(){
+
+        var first_day = new Date(today.getFullYear(), today.getMonth(), 1);
+        var last_day = new Date(today.getFullYear(), today.getMonth()+1, 0);
+
+        var tbCalendarYM = document.getElementById("tbCalendarYM");
+        tbCalendarYM.innerHTML = today.getFullYear() + "년 " + (today.getMonth() + 1) + "월";
+
+        var tb = document.getElementById("calendar");
+        var row = tb.insertRow();
+        var cell = null;
+
+        if(reset==1){
+          for(i=0;i<count;i++){
+            tb.deleteRow(2);
+          }
+        }
+
+        for(i=0;i<first_day.getDay();i++){
+          cell = row.insertCell();
+        }
+        count = 1;
+        for(i=0;i<last_day.getDate();i++){
+          cell = row.insertCell();
+          if(row.cells.length==7){
+            row = tb.insertRow();
+            count+=1;
+          }
+
+          cell.innerHTML = "<td valign=top><b>"+(i+1)+"</b><td><br>설정된 식단이 없습니다."
+
+          if(today.getFullYear()==date.getFullYear()
+           && today.getMonth()==date.getMonth()
+           && i==date.getDate()){
+             cell.bgcolor = "#FAF58C";
+          }
+        }
+
+
+
+      }
+    </script>
+
+  </head>
+  <body>
+    <img src="image/logo.jpg" width="100" height="50" alt="logo">
+    <nav class="navbar" uk-navbar>
+            <ul class="uk-navbar-nav navbar-ul">
+                <li><a href="#">캘린더</a></li>
+                <li><a href="#">음식사전</a></li>
+                <li><a href="#">초보 다이어터를 위한 가이드</a></li>
+                <li><a href="#">커뮤니티</a></li>
+                <li><a href="#">상담 신청하기</a></li>
+            </ul>
+    </nav>
+    <div class="centerDiv">
+      <div class="myDiv hrDiv">
+        <div>
+          <img src="https://stickershop.line-scdn.net/stickershop/v1/product/1979/LINEStorePC/main.png;compress=true" alt="" class="todoHeadimg">
+        </div>
+        <div class="myDiv">
+          <table class="uk-table uk-table-divider">
+            <h1 class="todoHead">To Do List</h1>
+            <tr>
+              <td class="todoList"><input type="checkbox" class="todoCheck"> 하루에 물 2L 섭취하기</td>
+            </tr>
+            <tr>
+              <td class="todoList"><input type="checkbox" class="todoCheck"> 과식하지 않기</td>
+            </tr>
+            <tr>
+              <td class="todoList"><input type="checkbox" class="todoCheck"> 식단 외의 음식은 조절해서 먹기</td>
+            </tr>
+            <tr>
+              <td class="todoList"><input type="checkbox" class="todoCheck"></td>
+            </tr>
+            <tr>
+              <td class="todoList"><input type="checkbox" class="todoCheck"></td>
+            </tr>
+            <tr>
+              <td class="todoList"><input type="checkbox" class="todoCheck"></td>
+            </tr>
+            <tr>
+              <td class="todoList"><input type="checkbox" class="todoCheck"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="uk-width-auto@m hrDiv myDiv">
+        <table id="calendar" class="uk-table uk-table-divider date">
+          <tr class="trCalender">
+            <td><label onclick="prevcalendar()">&lt</td>
+            <td id="tbCalendarYM" colspan="5"></td>
+            <td><label onclick="nextcalendar()">&gt</td>
+          </tr>
+          <tr class="trCalender">
+            <td style="color: red;">일</td>
+            <td>월</td>
+            <td>화</td>
+            <td>수</td>
+            <td>목</td>
+            <td>금</td>
+            <td style="color: blue;">토</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script language="javascript" type="text/javascript">
+      calendar();
+    </script>
+  </body>
+</html>
