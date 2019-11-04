@@ -1,0 +1,45 @@
+body{    
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #519D9E;
+}
+
+.navbar-ul li a{
+    color: #EFFBF5;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0 0 0 70px;
+}
+
+.navbar-ul li a:hover{
+    color: #9DC8C8;
+}
+
+.navbar-ul{
+    padding-left: 10%;
+}
+
+.content{
+    margin: 3% 10% 0 10%;
+}
+
+.notice_card{
+    background-color:#EFDC05;
+    height: 280px;
+}
+
+.notice a{
+    color: black;
+}
+
+.card-1{
+    background-color: #F7AA97;
+}
+
+.card-2{
+    background-color: #FDD692;
+}

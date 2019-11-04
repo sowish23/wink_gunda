@@ -3,13 +3,90 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <title>제목</title>
+    <title>나의 몸에 말을 건다, 건Dㅏ</title>
 </head>
 
 <body>
+    <img src="../image/logo.png" width="350" alt="logo">
+    <nav class="navbar" uk-navbar>
+        <ul class="uk-navbar-nav navbar-ul">
+            <li><a href="#">캘린더</a></li>
+            <li><a href="#">음식사전</a></li>
+            <li><a href="#">초보 다이어터를 위한 가이드</a></li>
+            <li><a href="#">커뮤니티</a></li>
+            <li><a href="#">상담 신청하기</a></li>
+        </ul>
+    </nav>
 
-    내용
+    <div class="content">
+        <div uk-grid>
+            <div class="uk-width-2-3">
+                <img src="../image/광고.png" alt="logo"/>
+            </div>
+            <div class="uk-width-1-3">
+                <div class="uk-card uk-card-default uk-card-body notice_card">
+                    <h3>공지사항</h3>
+                        <ul class="notice uk-list uk-list-divider">
+                            <li><a href="#">오늘의 '다이어트' 뉴스</a></li>
+                            <li><a href="#">★11월의 깜짝 이벤트 !★</a></li>
+                            <li><a href="#">SNS이벤트 참여하시고 아이패드 받아가..</a></li>
+                            <li><a href="#">(AD) 모닝똥의 개운함 !</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div uk-grid>
+            <div class="uk-width-1-2">
+                <div class="uk-card uk-card-default uk-card-body card-1">
+                    <div class="uk-card-badge uk-label uk-label-danger">MORE</div>
+                    <h4>명예의 전당</h4>
+                    <ul class="notice uk-list uk-list-divider">
+                        <li><a href="#">24살 '강신표'님 -13kg 감량 성공 후기!</a></li>
+                        <li><a href="#">32살 '김**'님의 다이어트 비법 공유</a></li>
+                        <li><a href="#">☆건다의 비법노트 전수!☆</a></li>
+                        <li><a href="#">20살 '박정명'님 점심식단 공유!</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-width-1-2">
+                <div class="uk-card uk-card-default uk-card-body card-2">
+                    <div class="uk-card-badge uk-label uk-label-danger">MORE</div>
+                    <h4>BMI 지수 측정</h4>
+                    <form class="uk-form-stacked">
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="form-stacked-select">성별</label>
+                            <div class="uk-form-controls">
+                                <select class="uk-select" id="form-stacked-select">
+                                    <option>남</option>
+                                    <option>여</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="form-stacked-text">키</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="form-stacked-text" type="text" placeholder="175cm">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="form-stacked-text">몸무게</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="form-stacked-text" type="text" placeholder="70kg">
+                            </div>
+                        </div> 
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </body>
 
