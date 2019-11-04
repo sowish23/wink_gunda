@@ -1,0 +1,104 @@
+/* 로고 크기 조절 */
+
+
+/* 네이게이션 바 */
+.navbar{
+    width: 100%;
+    background-color: #519D9E;
+}
+
+.navbar .navbar-ul li a{
+    color: #EFFBF5;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0 0 0 80px;
+}
+
+.navbar .navbar-ul li a:hover{
+    color: #9DC8C8;
+}
+
+.navbar .navbar-ul{
+    padding-left: 10%;
+}
+
+/* 표 1열 스타일 */
+.td_1r_num{
+  width: 10%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.td_1r_title{
+  width: 50%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.td_1r_writer{
+  width: 10%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.td_1r_date{
+  width: 15%;
+  text-align: center;
+  font-weight: bolder;
+}
+.td_1r_YorN{
+  width: 15%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
+
+/* 표 내용 스타일 */
+.td_num{
+  width: 10%;
+  text-align: center;
+}
+
+.td_title{
+  width: 50%;
+  text-align: left;
+  font-size: 16px;
+}
+
+.td_writer{
+  width: 10%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.td_date{
+  width: 15%;
+  text-align: center;
+}
+.td_YorN{
+  width: 15%;
+  text-align: center;
+}
+
+
+/* 표 위치 스타일 */
+.table_size{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0px;
+}
+
+/* 버튼 스타일 */
+.div_write{
+  text-align: right;
+  padding-right: 10%;
+  padding-top: 1px;
+}
+.a_write{
+  background-color: gray;
+  font-weight: bold;
+  color: white;
+}
