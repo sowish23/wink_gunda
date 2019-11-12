@@ -6,28 +6,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
+    <script type="text/javascript" src = "../js/index.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>나의 몸에 말을 건다, 건Dㅏ</title>
 </head>
 
 <body>
-    <img src="../image/logo.png" width="350" alt="logo">
+    <div class="top-logo">
+        <a href="index.html"><img src="../image/logo.png" width="350" alt="logo" id="logo"></a>
+            <ul class="top">
+                <li class="top_right">
+                    <a href="#signin"> Sign Up </a>
+                    <a href="#signup"> Sign In </a>
+                    <a href="#intro"> About Us </a>
+                </li>
+            </ul>
+    </div>
     <nav class="navbar" uk-navbar>
         <ul class="uk-navbar-nav navbar-ul">
-            <li><a href="#">캘린더</a></li>
-            <li><a href="#">음식사전</a></li>
-            <li><a href="#">초보 다이어터를 위한 가이드</a></li>
-            <li><a href="#">커뮤니티</a></li>
-            <li><a href="#">상담 신청하기</a></li>
+            <li><a onclick='alert("준비중입니다!")'>캘린더</a></li>
+            <li><a href="dictionary.html">음식사전</a></li>
+            <li><a href="guide.html">초보 다이어터를 위한 가이드</a></li>
+            <li><a href="community.html">커뮤니티</a></li>
+            <li><a href="counseling.html">상담 신청하기</a></li>
         </ul>
     </nav>
+    <article>
+        <img class="slide" src="../image/banner1.jpg">
+        <img class="slide" src="../image/banner2.jpg">
+    </article>
 
-    <div class="content">
+    <div class="content">        
         <div uk-grid>
             <div class="uk-width-2-3">
-                <img src="../image/adv.png" alt="logo" width="100%" height="50%"/>
+                <img src="../image/광고.png" alt="logo"/>
             </div>
             <div class="uk-width-1-3">
                 <div class="uk-card uk-card-default uk-card-body notice_card">
@@ -79,9 +94,9 @@
                             <div class="uk-form-controls">
                                 <input class="uk-input" id="form-stacked-text" type="text" placeholder="70kg">
                             </div>
-                        </div>
+                        </div> 
                     </form>
-
+                    
                 </div>
             </div>
         </div>

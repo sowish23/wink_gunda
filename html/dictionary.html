@@ -1,0 +1,138 @@
+<html>
+
+<head>
+  <title>나의 몸에 말을 건다, 건Dㅏ</title>
+  <link rel="stylesheet" type="text/css" href="../css/dictionary.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/css/uikit.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.7/js/uikit-icons.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="top-logo">
+    <a href="index.html"><img src="../image/logo.png" width="350" alt="logo" id="logo"></a>
+    <ul class="top">
+      <li class="top_right">
+        <a href="#signin"> Sign Up </a>
+        <a href="#signup"> Sign In </a>
+        <a href="#intro"> About Us </a>
+      </li>
+    </ul>
+  </div>
+  <nav class="navbar" uk-navbar>
+    <ul class="uk-navbar-nav navbar-ul">
+      <li><a onclick='alert("준비중입니다!")'>캘린더</a></li>
+      <li><a href="dictionary.html">음식사전</a></li>
+      <li><a href="guide.html">초보 다이어터를 위한 가이드</a></li>
+      <li><a href="community.html">커뮤니티</a></li>
+      <li><a href="counseling.html">상담 신청하기</a></li>
+    </ul>
+  </nav>
+
+  <div class="wrap-all">
+    <div class="content">
+      <h4 style="text-align: center;"><strong>FOOD DICTIONARY</strong></h4>
+      <hr>
+      <h3>음식칼로리</h3>
+      <hr>
+      <div class="searchBox">
+        <form name="search" method="get" onsubmit="return false;">
+          <input type="text" title="search" style="width:619px; height:43px">
+          <a href=""><img src="../image/검색.gif"></a>
+          <p id="font1">
+            건다 칼로리 사전은 음식의 칼로리 뿐만 아니라
+            <span id="color-blue">영양소 구성도 함께 나와 건강한 식습관 형성</span>에도 도움이 됩니다.
+          </p>
+        </form>
+      </div>
+      <h4>많이 찾는 음식칼로리 <span id="color-red">Best 10</span></h4>
+      <div class="bestList">
+        <table class="bestTable ty02" summary>
+          <colgroup>
+            <col style="width:80px">
+            <col style="width:45px">
+            <col style="width:auto">
+            <col style="width:144px">
+            <col style="width:127px">
+          </colgroup>
+          <thead>
+            <tr>
+              <th colspan="2">순위</th>
+              <th>음식명</th>
+              <th>단위</th>
+              <th class="last">칼로리</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">1</td>
+              <td class="subject">쌀밥</td>
+              <td>1공기(210g)</td>
+              <td>310kcal</td>
+            </tr>
+            <tr>
+              <td colspan="2">2</td>
+              <td class="subject">사과</td>
+              <td>1개(250g)</td>
+              <td>122.5kcal</td>
+            </tr>
+            <tr>
+              <td colspan="2">3</td>
+              <td class="subject">찐고구마</td>
+              <td>1회(100g)</td>
+              <td>93kcal</td>
+            </tr>
+            <tr>
+              <td colspan="2">4</td>
+              <td class="subject">삶은 달걀</td>
+              <td>1개(50g)</td>
+              <td>80kcal</td>
+            </tr>
+            <tr>
+              <td colspan="2">5</td>
+              <td class="subject">귤</td>
+              <td>1개(100g)</td>
+              <td>39kcal</td>
+            </tr>
+            <tr>
+              <td colspan="2">6</td>
+              <td class="subject">바나나</td>
+              <td>1개(100g)</td>
+              <td>93kcal</td>
+            </tr>
+            <tr>
+              <td colspan="2">7</td>
+              <td class="subject">배추김치</td>
+              <td>1소접시(100g)</td>
+              <td>25kcal</td>
+            </tr>
+            <tr>
+              <td colspan="2">8</td>
+              <td class="subject">달걀 후라이</td>
+              <td>1개(46g)</td>
+              <td>89kcal</td>
+            </tr>
+            <tr>
+              <td colspan="2">9</td>
+              <td class="subject">군고구마</td>
+              <td>1회(100g)</td>
+              <td>124kcal</td>
+            </tr>
+            <tr>
+              <td colspan="2">10</td>
+              <td class="subject">단감</td>
+              <td>1개(100g)</td>
+              <td>48kcal</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

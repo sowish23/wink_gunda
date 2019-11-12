@@ -3,24 +3,24 @@
 
 /* 네이게이션 바 */
 .navbar{
-    width: 100%;
-    background-color: #519D9E;
+  width: 100%;
+  background-color: #519D9E;
 }
 
 .navbar .navbar-ul li a{
-    color: #EFFBF5;
-    font-size: 1em;
-    font-weight: bold;
-    font-family: 'Nanum Gothic', sans-serif;
-    padding: 0 0 0 80px;
+  color: #EFFBF5;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 0 0 0 80px;
 }
 
 .navbar .navbar-ul li a:hover{
-    color: #9DC8C8;
+  color: #9DC8C8;
 }
 
 .navbar .navbar-ul{
-    padding-left: 10%;
+  padding-left: 10%;
 }
 
 /* 표 1열 스타일 */

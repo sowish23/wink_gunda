@@ -1,0 +1,114 @@
+.sub_news,.sub_news th,.sub_news td{
+    border:0
+}
+.sub_news a{
+    color:#383838;
+    text-decoration:none;
+}
+.sub_news{
+    width:100%;
+    border-bottom:1px solid #999;
+    color:#666;font-size:12px;
+    table-layout:fixed;
+}
+.sub_news caption{
+    display:none;
+}
+.sub_news th{
+    padding:10px 0 6px;
+    border-top:solid 1px #999;
+    border-bottom:solid 1px #b2b2b2;
+    background-color:#f1f1f4;
+    color:#333;font-weight:bold;
+    line-height:20px;
+    vertical-align:top;
+}
+.sub_news td{
+    padding:8px 0 9px;
+    border-bottom:solid 1px #d2d2d2;
+    text-align:center;
+    line-height:18px;
+}
+.sub_news .date,.sub_news .hit{
+    padding:0;
+    font-family:Tahoma;
+    font-size:11px;
+    line-height:normal;
+}
+.sub_news .title{
+    text-align:center;
+    padding-left:5px; 
+    font-size:12px;
+}
+.sub_news .title .pic,.sub_news .title .new{
+    margin:0 0 2px;
+    vertical-align:middle;
+}
+.sub_news .title a.comment{
+    padding:0;
+    background:none;
+    color:#f00;
+    font-size:12px;
+    font-weight:bold;
+}
+.sub_news tr.reply .title a{
+    padding-left:16px;
+    background:url(첨부파일/ic_reply.png) 0 1px no-repeat;
+}
+.paging_comm {
+    font-weight:bold;
+    font-size:14px;
+    line-height:18px;
+    text-align:center;
+    vertical-align:top;
+}
+.paging_comm .link_page {
+    display:inline-block;
+    padding:4px 6px 3px 5px;
+    margin-right:1px;
+    border:1px solid #eaeaea;
+    text-decoration:none;
+}
+.paging_comm .link_page:hover, .paging_comm em.link_page {
+    border:1px solid #536fe5;
+    color:#536fe5;
+    font-weight:bold;
+}
+.paging_comm .img_sample {
+    display:inline-block;
+    padding:6px 2px 4px 3px;
+    border:0 none;
+    font-weight:normal;
+    color:#999;
+    text-decoration:none;
+}
+.paging_comm .link_page:hover {
+    text-decoration:none;
+}
+.paging_comm .btn_prev {
+    padding-left:6px;
+    background-position:0 10px;
+}
+.paging_comm .btn_next {
+    padding-right:7px;
+    background-position:100% -10px;
+}
+.paging_comm a.btn_prev:hover {
+    background-position:0 -30px;
+    color:#333;
+}
+.paging_comm a.btn_next:hover {
+    background-position:100% -50px;
+    color:#333;
+}
+.paging_comm span.btn_prev {
+    background-position:0 10px;
+    color:#999;
+}
+.paging_comm span.btn_next {
+    background-position:100% -10px;
+    color:#999;
+}
+.table td.subject{
+    color:#005c9a;
+}

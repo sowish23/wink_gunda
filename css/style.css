@@ -2,6 +2,41 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+#logo{
+    display: inline;
+}
+
+.top{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1b3c71;
+    top : 0;
+  }
+
+.top li{
+    display: inline;
+    font-size : 12px;
+  }
+
+.top li a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+.top .top_right{
+    padding: 15px 150px 0 0;
+    margin-top: 16px;
+    float: right;
+  }
+  
+.top .top_right a{
+    border-left: 1px solid #6E6E6E;
+  }
+
 .navbar{
     width: 100%;
     background-color: #519D9E;
@@ -24,22 +59,5 @@ body{
 }
 
 .content{
-    margin: 3% 10% 0 10%;
-}
-
-.notice_card{
-    background-color:#EFDC05;
-    height: 280px;
-}
-
-.notice a{
-    color: black;
-}
-
-.card-1{
-    background-color: #F7AA97;
-}
-
-.card-2{
-    background-color: #FDD692;
+    margin-top: 2%;
 }

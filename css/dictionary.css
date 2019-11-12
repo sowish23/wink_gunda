@@ -1,0 +1,58 @@
+h2, h3, h4 {
+  font-family: 'Nanum Gothic','ë§‘ì€ ê³ ë”•','ë‹ì›€',sans-serif;
+  font-size:13px;
+  padding-left:15px;
+}
+
+.wrap-all {
+  width : 716px;
+  margin: auto;
+}
+
+.topBanner {
+  position:relative;
+  width:732px;
+  height:180px;
+  overflow:hidden;
+  margin-bottom:35px;
+  padding-left:15px;
+}
+
+.searchBox {
+  position:relative;
+  width:732px;
+  height:130px;
+  overflow:hidden;
+  padding-left:15px;
+}
+
+.bestTable{table-layout:fixed;width:100%;border-bottom:1px solid #dad9d9}
+.bestTable thead th{height:41px;line-height:41px;font-size:12px;background:url('../../img/common/bg_th.gif') no-repeat -4px top;border-left:1px solid #ebebeb}
+.bestTable thead th:first-child{background:url('../../img/common/bg_th.gif') no-repeat left top;border-left:0 none}
+.bestTable thead th.last{background:url('../../img/common/bg_th.gif') no-repeat right top}
+.bestTable td{text-align:center;line-height:20px;padding:9px 0;border-top:1px solid #efefef;color:#626262;font-weight:normal}
+.bestTable td a{color:#626262}
+.bestTable tbody tr:first-child td{border-top:0 none}
+.bestTable .group{text-align:left;padding-left:10px}
+.bestTable .category{text-align:left;padding-left:10px}
+.bestTable .subject{text-align:left;padding-left:10px}
+.bestTable .subject:first-child{padding-left:0}
+
+
+
+
+
+
+
+
+#font1 {
+  font-size : 15px;
+}
+
+#color-blue {
+  color : #16a8e5;
+}
+
+#color-red {
+  color : #ec434a;
+}

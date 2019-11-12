@@ -1,0 +1,25 @@
+.content{
+    margin: 0 10% 0 10%;
+}
+
+.notice_card{
+    background-color:#EFDC05;
+    height: 280px;
+}
+
+.notice a{
+    color: black;
+}
+
+.slide{
+    height: 350px;
+    width: 100%;
+  }
+
+.card-1{
+    background-color: #F7AA97;
+}
+
+.card-2{
+    background-color: #FDD692;
+}
